@@ -2,13 +2,13 @@
   "comment": "Be explicit by listing every available rule. https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md",
   "comment": "Note that there will be numeric gaps, not every MD number is implemented in markdownlint.",
 
-  "comment": "MD001: Header levels should only increment by one level at a time.",
+  "comment": "MD001: Header levels should NOT only increment by one level at a time.",
   "header-increment": true,
 
   "comment": "MD002: First header should be a top level header.",
   "first-header-h1": true,
 
-  "comment": "MD003: Header style: start with hashes.",
+  "comment": "MD003: Header: start with hashes.",
   "header-style": {
     "style": "atx"
   },
